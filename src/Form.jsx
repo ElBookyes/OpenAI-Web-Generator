@@ -24,7 +24,7 @@ export default function Form({setGenerated, setRaw, setIsLoading }) {
                 messages: [
                     {
                         "role": "user",
-                        "content": "generate me a website with the following content in HTML: " + JSON.stringify(prompt)
+                        "content": "Make a single page website that shows off different neat javascript features for drop-downs and things to display information. The website should be an HTML file with embedded javascript and CSS. The website should cointain and be about the following content:  " + JSON.stringify(prompt)
                     }
                 ]
             }
