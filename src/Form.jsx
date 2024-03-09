@@ -29,8 +29,7 @@ export default function Form({ setGenerated, setRaw, setIsLoading }) {
           {
             role: "user",
             content:
-              "Make a single page website that shows off different neat javascript features for drop-downs and things to display information. The website should be an HTML file with embedded javascript and CSS. The website should cointain and be about the following content:  " +
-              JSON.stringify(prompt),
+              "Create a single-page website using the latest HTML, CSS, and JavaScript features. The website should feature a navigation bar styled using CSS flexbox properties, displaying links to Home, About, Services, and Contact sections. Include a dropdown menu within the navigation bar offering options for Products, Pricing, and FAQ. Implement an image gallery in the main section showcasing our latest products, with smooth scroll animations and hover effects applied throughout the website. Integrate an interactive contact form in the Contact section, ensuring form validation and error handling. Use lazy loading for images and content sections, customizable themes for user preference, and ensure a fully responsive layout adaptable to various screen sizes using CSS Grid and Flexbox. Additionally, integrate external APIs to fetch and display dynamic content such as weather forecasts or real-time data updates, enhancing the website's functionality and user engagement. Include the following content: " + JSON.stringify(prompt),
           },
         ],
       };
