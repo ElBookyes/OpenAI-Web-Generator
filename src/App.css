@@ -125,12 +125,15 @@ section {
 /* Loading Component */
 
 .loading-spinner {
+  position: absolute;
   margin: 0 auto;
   width: 3rem;
   height: 3rem;
   fill: var(--clr-bg);
   color: var(--clr-neon);
   animation: spin 1s linear infinite;
+  top: 50%;
+  left: 50%;
 }
 
 @keyframes spin {
@@ -142,13 +145,6 @@ section {
   }
 }
 
-@media(min-width: 60em) {
-  .loading-spinner {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-  }
-}
 
 /* Neon Button */
 

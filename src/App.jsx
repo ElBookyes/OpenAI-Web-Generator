@@ -19,7 +19,8 @@ function App() {
 
   return(
     <>
-    {isLoading && !generated ? <Loading /> : generated ? <Site raw={raw}/> : <Form setGenerated={setGeneratedToTrue} setRaw={setChangeOfRaw} setIsLoading={setIsLoading}/>}
+    {isLoading && !generated ? <Loading /> : generated ? <Site raw={raw}/> : 
+    <Form setGenerated={setGeneratedToTrue} setRaw={setChangeOfRaw} setIsLoading={setIsLoading}/>}
     </>
   );
 

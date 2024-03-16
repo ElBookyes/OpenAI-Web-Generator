@@ -46,6 +46,7 @@ export default function Form({ setGenerated, setRaw, setIsLoading }) {
         }
       );
       const data = await response.json();
+      console.log(data);
       setRaw(data.choices[0].message.content);
       setGenerated();
       setIsLoading(false);
